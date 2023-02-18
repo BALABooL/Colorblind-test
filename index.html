@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Colorblind test</title>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Вступительная часть -->
+    <section class="intro">
+      <header class="intro_header">
+        <h1 class="header_title">
+          Проявления дальтонизма
+        </h1>
+        <p class="header_subtitle">
+          На этом сайте можно посмотреть, как видят цвета люди с различными ошибками зрения.
+        </p>
+      </header>
+    </section>
+      <!-- Пояснение к классам col1-5 в css -->
+      <!-- это краткое обозначение различных нарушений зрения -->
+      <section class="buttons">
+        <a href="#" class="button" id="button_col1" onclick="buttonBackground()">
+          Нормальное
+        </a>
+        <a href="#" class="button" id="button_col2" onclick="buttonBackground()">
+          Дейтераномалия
+        </a>
+        <a href="#" class="button" id="button_col3" onclick="buttonBackground()">
+          Протанопия
+        </a>
+        <a href="#" class="button" id="button_col4" onclick="buttonBackground()">
+          Тританомалия
+        </a>
+        <a href="#" class="button" id="button_col5" onclick="buttonBackground()">
+          Ахроматопсия
+        </a>
+      </section>
+      <!-- Полоска цветового спектра, показывающая
+      различные ошибки зрения -->
+      <div class="color_bar invisible" id="color_bar">
+      </div>
+      <div class="language RUS" id="language" onclick="languageToggle()"></div>
+  </div>  
+  <script src="/scripts/script.js"></script>
+</body>
+</html>
