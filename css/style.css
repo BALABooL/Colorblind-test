@@ -74,21 +74,9 @@ col3 - Протанопия
 col4 - Тританомалия
 col5 - Ахроматопсия
 */
-/* a.button.col1:hover {
-  background: linear-gradient(to right, rgba(255,0,0,1) 0%, rgba(254,255,0,1) 19%, rgba(2,251,56,1) 35%, rgba(0,255,250,1) 51%, rgba(0,26,255,1) 68%, rgba(255,0,240,1) 82%, rgba(255,0,0,1) 100%);
+button.button:hover {
+  background-color: #ccc;
 }
-a.button.col2:hover {
-  background: linear-gradient(90deg, rgba(122,54,14,1) 0%, rgba(236,194,55,1) 14%, rgba(252,252,117,1) 19%, rgba(96,213,120,1) 35%, rgba(147,240,238,1) 51%, rgba(0,18,173,1) 68%, rgba(143,69,138,1) 83%, rgba(156,61,18,1) 100%);
-}
-a.button.col3:hover {
-
-}
-a.button.col4:hover {
-
-}
-a.button.col5:hover {
-
-} */
 /* полоска с градиентом выбранного типа */
 .color_bar {
   min-width: 500px;
@@ -138,4 +126,5 @@ a.button.col5:hover {
 
 .invisible {
   display: none;
+
 }
