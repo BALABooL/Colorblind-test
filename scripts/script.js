@@ -16,6 +16,7 @@ function buttonBackground() {
   if (buttonClasses.contains("col1") ) {
     buttonClasses.remove("col1");
     colorBarClasses.add("invisible");
+    colorBarClasses.add("col1");
   } else {
     buttonClasses.add("col1");
     colorBarClasses.remove("invisible");
